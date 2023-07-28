@@ -1,0 +1,33 @@
+/* navbar.css */
+.navbar {
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-button {
+    background-color: #F2F2F2; /* Complementary color */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white; /* White text color */
+  }
+  
+  .nav-button:hover {
+    background-color: #36b97a;
+  }
+  /* Style the links inside the nav buttons */
+  .nav-button a {
+    color: black; /* Set the link color to black */
+    text-decoration: none; /* Remove underline */
+  }
+  .nav-button.active {
+    background-color: black; /* Complementary color when active */
+    color: #E5E5E5;
+    font-weight: bold; /* White text color when active */
+  }
+  
